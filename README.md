@@ -8,3 +8,8 @@ The most simplest steps:
 (5) "git remote add hwygroup https://github.com/hwygroup/test.git"
 (6) "git push hwygroup master"
 (7) The above two steps are submit to the remote github address (we have named it as hwygroup)
+(8) Now we try to remove test1 from both the local and remote repository
+(9) git rm test1 -r
+(10) git commit -a -m 'remove test1'
+(11) git push -u hwygroup master
+
